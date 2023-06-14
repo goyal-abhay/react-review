@@ -15,10 +15,6 @@ const App = () => {
     { name: "h", value: false },
   ]);
 
-  function handleChange(listItem) {
-    listItem.value = !listItem.value;
-  }
-
   function handleLeft() {
     const tempArr = [];
     items2.forEach((item) => {
